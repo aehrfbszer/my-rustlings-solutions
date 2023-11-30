@@ -1,6 +1,7 @@
 // strings3.rs
-// Execute `rustlings hint strings3` or use the `hint` watch subcommand for a hint.
-
+//
+// Execute `rustlings hint strings3` or use the `hint` watch subcommand for a
+// hint.
 
 fn trim_me(input: &str) -> String {
     // TODO: Remove whitespace from both ends of a string!
@@ -9,9 +10,9 @@ fn trim_me(input: &str) -> String {
 
 fn compose_me(input: &str) -> String {
     // TODO: Add " world!" to the string! There's multiple ways to do this!
-    let mut str = input.to_owned();
-    str.push_str(" world!");
-    str
+    let mut ss = input.to_string();
+    ss.push_str(" world!");
+    ss
 }
 
 fn replace_me(input: &str) -> String {

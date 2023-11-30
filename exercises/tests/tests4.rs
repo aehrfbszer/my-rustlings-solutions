@@ -1,11 +1,13 @@
 // tests4.rs
+//
 // Make sure that we're testing for the correct conditions!
-// Execute `rustlings hint tests4` or use the `hint` watch subcommand for a hint.
-
+//
+// Execute `rustlings hint tests4` or use the `hint` watch subcommand for a
+// hint.
 
 struct Rectangle {
     width: i32,
-    height: i32,
+    height: i32
 }
 
 impl Rectangle {
@@ -14,7 +16,7 @@ impl Rectangle {
         if width <= 0 || height <= 0 {
             panic!("Rectangle width and height cannot be negative!")
         }
-        Rectangle { width, height }
+        Rectangle {width, height}
     }
 }
 
